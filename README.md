@@ -42,10 +42,10 @@ target_link_libraries( 1 2 )
 
 include_directories("/usr/include/eigen3")
 
-8，自动找包
+8，自动找包，找到库就把头文件路径和库文件路径赋值给下面两个语句中的 ${LAPACK_INCLUDE_DIRS}、 ${LAPACK_LIBRARIES}
 
 find_package(Pangolin REQUIRED)  
                                                
-include_directories(${Pangolin_INCLUDE_DIRS})  
+include_directories(${Pangolin_INCLUDE_DIRS})//头文件  
 
-target_link_libraries(6 ${Pangolin_LIBRARIES})
+target_link_libraries(6 ${Pangolin_LIBRARIES})//库（源文件）
