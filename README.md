@@ -53,3 +53,18 @@ find_package(Pangolin REQUIRED) //找包并赋予给句柄（定义名）
 include_directories(${Pangolin_INCLUDE_DIRS})//头文件  
 
 target_link_libraries(6 ${Pangolin_LIBRARIES})//库（源文件）
+
+9,设置目标的属性，该命令的语法是列出想要更改的所有目标，然后提供接下来想要设置的值。您可以使用该命令任何所需的键值对，然后使用get_property()或get_target_property()命令提取它
+
+按照一般的习惯，静态库名字跟动态库名字应该是一致的，只是扩展名不同；
+ 
+即：静态库名为 libhello.a； 动态库名为libhello.so ；
+ 
+所以，希望 "hello_static" 在输出时，不是"hello_static"，而是以"hello"的名字显示，故设置如下：
+ 
+SET_TARGET_PROPERTIES (hello_static PROPERTIES OUTPUT_NAME "hello")
+ 
+GET_TARGET_PROPERTY (OUTPUT_VALUE hello_static OUTPUT_NAME)
+ 
+MESSAGE (STATUS "This is the hello_static OUTPUT_NAME: " ${OUTPUT_VALUE})
+
