@@ -122,10 +122,10 @@ option(A "option_complie_and_<A>_value_is_<NO>" NO)//除了ON其他都是OFF
 
 if (A)
    
-        message(STATUS "TEST_OPTION defined: " ${TEST_OPTION})
+   message(STATUS "TEST_OPTION defined: " ${TEST_OPTION})
    
 else ()
    
-        message(STATUS "TEST_OPTION un-defined: " ${TEST_OPTION})
+   message(STATUS "TEST_OPTION un-defined: " ${TEST_OPTION})
    
 endif()
