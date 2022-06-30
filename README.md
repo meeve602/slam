@@ -112,3 +112,20 @@ PACKAGES_NOT_FOUND cmake运行过程中没有找到的包
 
 set_target_properties(Acrodictlibre PROPERTIES COMPILE_FLAGS "-DUSE_ACRODICT" )
 
+10，选择编译
+
+option(<variable> "<help_text>" [value])
+
+option(A "option_complie_and_<A>_value_is_<NO>" NO)//除了ON其他都是OFF
+   
+11，分支语句（配合option，也可通过set）
+
+if (A)
+   
+        message(STATUS "TEST_OPTION defined: " ${TEST_OPTION})
+   
+else ()
+   
+        message(STATUS "TEST_OPTION un-defined: " ${TEST_OPTION})
+   
+endif()
