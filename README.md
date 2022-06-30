@@ -145,4 +145,4 @@ set_target_properties(Acrodictlibre PROPERTIES COMPILE_FLAGS "-DUSE_ACRODICT" )
 
 12,INSTALL命令
 
-见install.md
+见install command.md
