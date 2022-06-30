@@ -133,3 +133,13 @@ endif()
 可以使用-D+选项名称，修改选项的值
    
 cmake  .. -DA=OFF
+   
+####通过判断选项的值，可以通过 add_definitions()定义相关的宏，已达到控制C程序条件编译流程   
+   
+如果TEST_OPTION选项的值是ON，那么就会定义TEST_OPTION宏，这样在####test.c中就可以通过判断TEST_OPTION的声明情况，来控制编译流程。
+
+      #ifdef TEST_OPTION
+              printf("Hello, CMake.\n");
+      #endif
+
+这里，如果TEST_OPTION宏被定义，那么test就会打印"Hello，CMake.
