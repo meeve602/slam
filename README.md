@@ -144,4 +144,5 @@ set_target_properties(Acrodictlibre PROPERTIES COMPILE_FLAGS "-DUSE_ACRODICT" )
 这里，如果TEST_OPTION宏被定义，那么test就会打印"Hello，CMake.
 
 12,INSTALL命令
+
 见install.md
