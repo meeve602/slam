@@ -68,3 +68,44 @@ GET_TARGET_PROPERTY (OUTPUT_VALUE hello_static OUTPUT_NAME)
  
 MESSAGE (STATUS "This is the hello_static OUTPUT_NAME: " ${OUTPUT_VALUE})
 
+可以拥有属性(property)的主体有以下几种：
+
+源文件(source file)
+
+目录(directory)
+
+target：cmake可构建三种 target files : archive, library, 和 runtime. 
+
+Executables 总是 runtime targets. 
+
+Static libraries 总是 archive targets. 
+
+Module libraries总是 library targets. 
+
+对 non-DLL 平台，shared libraries 是 library targets. 
+
+对 DLL 平台, DLL 是 runtime target, 对应的导入库是 archive target. All Windows-based systems including Cygwin 都是 DLL 平台.
+
+全局属性(global)
+
+源文件属性：
+
+COMPILE_DEFINITIONS 编译此源文件时的预处理定义
+
+COMPILE_FLAGS 编译此源文件时的编译选项
+
+目录属性：
+
+EXCLUDE_FROM_ALL 将此目录排除在默认build target以外
+
+target属性：
+
+RUNTIME_OUTPUT_DIRECTORY runtime target 的输出目录
+
+全局属性：
+
+PACKAGES_FOUND cmake运行过程中找到的包
+
+PACKAGES_NOT_FOUND cmake运行过程中没有找到的包
+
+例如：CMake 中像我们提供了 CMAKE_CXX_FLAGS、CMAKE_C_FLAGS 这样的标志来选择C++/C版本的编译标志
