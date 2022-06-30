@@ -30,9 +30,13 @@ set (normal_var a)
 
 message (">>> value = ${normal_var}")
 
-5，添加库
+5，添加库(静态库)
 
-add_library( 2 2.cpp )
+add_library( 2 2.cpp ) 
+
+共享库
+
+add_library( 2 SHARED 2.cpp ) 
 
 6，添加库需要连接库
 
