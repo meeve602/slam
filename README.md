@@ -109,3 +109,6 @@ PACKAGES_FOUND cmake运行过程中找到的包
 PACKAGES_NOT_FOUND cmake运行过程中没有找到的包
 
 例如：CMake 中像我们提供了 CMAKE_CXX_FLAGS、CMAKE_C_FLAGS 这样的标志来选择C++/C版本的编译标志
+
+set_target_properties(Acrodictlibre PROPERTIES COMPILE_FLAGS "-DUSE_ACRODICT" )
+
