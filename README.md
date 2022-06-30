@@ -1,5 +1,5 @@
-# slam
-SLAM follow to learn /n
+# SLAM
+SLAM follow to learn 
 
-# slam
-SLAM follow to learn
+# CMAKE
+CMAKE follow to learn
