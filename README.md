@@ -129,3 +129,7 @@ else ()
    message(STATUS "TEST_OPTION un-defined: " ${TEST_OPTION})
    
 endif()
+   
+可以使用-D+选项名称，修改选项的值
+   
+cmake  .. -D=OFF
