@@ -38,4 +38,14 @@ add_library( 2 2.cpp )
 
 target_link_libraries( 1 2 )
 
+7，添加路径导航，指定的目录被解释成当前源码路径的相对路径，找头文件专用，.cpp文件一般是libraries
 
+include_directories("/usr/include/eigen3")
+
+8，自动找包
+
+find_package(Pangolin REQUIRED)  
+                                               
+include_directories(${Pangolin_INCLUDE_DIRS})  
+
+target_link_libraries(6 ${Pangolin_LIBRARIES})
