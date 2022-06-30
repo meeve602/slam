@@ -54,7 +54,7 @@ include_directories(${Pangolin_INCLUDE_DIRS})//头文件
 
 target_link_libraries(6 ${Pangolin_LIBRARIES})//库（源文件）
 
-9,设置目标的属性，该命令的语法是列出想要更改的所有目标，然后提供接下来想要设置的值。您可以使用该命令任何所需的键值对，然后使用get_property()或get_target_property()命令提取它
+9，设置目标的属性，该命令的语法是列出想要更改的所有目标，然后提供接下来想要设置的值。您可以使用该命令任何所需的键值对，然后使用get_property()或get_target_property()命令提取它
 
 按照一般的习惯，静态库名字跟动态库名字应该是一致的，只是扩展名不同；
  
