@@ -53,6 +53,21 @@ CMAKE follow to learn
 
       target_link_libraries(6 ${Pangolin_LIBRARIES})//库（源文件）
 
+parameter:
+
+1 XXX FOUND: Set to false, or undefined, if we haven’t found, or don’t want to use XXX.
+
+2 XXX INCLUDE DIRS: The final set of include directories listed in one variable for use by client code.
+
+3 XXX LIBRARIES: The libraries to link against to use XXX. These should include full paths.
+
+4 XXX DEFINITIONS: Definitions to use when compiling code that uses XXX.
+
+5 XXX EXECUTABLE: Where to find the XXX tool.
+
+6 XXX LIBRARY DIRS: Optionally, the final set of library directories listed in one variable for use by client code.
+
+
 9，设置目标的属性，该命令的语法是列出想要更改的所有目标，然后提供接下来想要设置的值。您可以使用该命令任何所需的键值对，然后使用get_property()或get_target_property()命令提取它
 
 按照一般的习惯，静态库名字跟动态库名字应该是一致的，只是扩展名不同；
@@ -170,7 +185,7 @@ easily package your software
 
       #Near the end of the CMakeLists.txt
       #Chose your CPack generator
-      set (CPACK GENERATOR "TGZ" )
+      set (CPACK GENERATOR "TGZ" )          #zip tbz tz .......
       Setup package version
       set(CPACK_PACKAGE_VERSION_MAJOR 0 )
       set(CPACK_PACKAGE_VERSION_MINOR 1 )
@@ -186,3 +201,27 @@ unpack:
 
       $ tar ztvf TotallyFree-0.1.0-Linux.tar.gz
 
+# CTest
+
+program test 
+
+CMakeList:
+
+      enable_testing()
+      
+      addtest(NAME test COMMAND test1 2 3 )
+      
+      addtest(NAME test COMMAND test1 4 5 )
+
+sourse file :
+
+      int main (int argc, char *argv[] )
+      {
+            int a = atoi(argv[1]);
+            int b = atoi(argv[2]);
+            
+            int c = a + b;
+            
+            cout << a << b << c <<endl:
+            return 0;
+      }
