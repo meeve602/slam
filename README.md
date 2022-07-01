@@ -164,4 +164,25 @@ CMakeList.txt:
 
       set(CMAKE INSTALL PREFIX /home/eric/testinstal)
       
+#CPAKE
+
+easily package your software
+
+      #Near the end of the CMakeLists.txt
+      #Chose your CPack generator
+      set (CPACK GENERATOR "TGZ" )
+      Setup package version
+      set(CPACK_PACKAGE_VERSION_MAJOR 0 )
+      set(CPACK_PACKAGE_VERSION_MINOR 1 )
+      set(CPACK_PACKAGE_VERSION_PATCH 0 )
+      #’call’ CPack
+      include(CPack)
       
+command:  
+  
+      $ make package
+
+unpack: 
+
+      $ tar ztvf TotallyFree-0.1.0-Linux.tar.gz
+
