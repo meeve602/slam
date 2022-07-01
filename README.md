@@ -229,3 +229,7 @@ sourse file :
             cout << a << b << c <<endl:
             return 0;
       }
+
+command :
+
+      make test
