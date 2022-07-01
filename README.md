@@ -164,7 +164,7 @@ CMakeList.txt:
 
       set(CMAKE INSTALL PREFIX /home/eric/testinstal)
       
-#CPAKE
+# CPAKE
 
 easily package your software
 
