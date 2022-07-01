@@ -207,11 +207,15 @@ program test
 
 CMakeList:
 
+      project (test_number)
+
+      add executable(test_number main.cpp)
+
       enable_testing()
       
-      addtest(NAME test COMMAND test1 2 3 )
+      addtest(NAME test23 COMMAND test_number 2 3 )
       
-      addtest(NAME test COMMAND test1 4 5 )
+      addtest(NAME test45 COMMAND test_number 4 5 )
 
 sourse file :
 
