@@ -156,6 +156,12 @@ concept:指定路径把源文件安装在指定目录下，如 头文件 usr/inc
       install(FILES acrodict.h DESTINATION include)
 13,控制安装路径 （Controlling installation destination）
 
-cmake --help-variable CMAKE_INSTALL_PREFIX
+command:
 
-set(CMAKE INSTALL PREFIX /home/eric/testinstal)
+      cmake --help-variable CMAKE_INSTALL_PREFIX
+      
+CMakeList.txt:  
+
+      set(CMAKE INSTALL PREFIX /home/eric/testinstal)
+      
+      
