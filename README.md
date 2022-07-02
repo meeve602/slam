@@ -238,12 +238,12 @@ command :
 
 # Git
 
-don't chance a same  !!!file!!! a the same time 
+don't chance a same  !!!file!!! at the same time 
 
 work flow :
 
       pull
       change 
-      pull 
-      push
+      pull (local file something be changed will not be overwrite)
+      push (local file pushing will overwrite stock code)
       
