@@ -27,3 +27,5 @@ target_link_libraries(7 ${Sophus_LIBRARIES} ${Pangolin_LIBRARIES} )
 message("cmake_module_path: " ${CMAKE_MODULE_PATH})
 
 #include_directories("/root/slam/slambook2-master/3rdparty/Sophus/Sophus-13fb3288311485dc94e3226b69c9b59cd06ff94e/sophus")  
+target_link_libraries(7 Sophus::Sophus)
+

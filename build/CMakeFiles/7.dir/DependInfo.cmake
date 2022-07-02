@@ -34,6 +34,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/root/slam/slambook2-master/3rdparty/Pangolin/Pangolin/components/pango_scene/include"
   "/root/slam/slambook2-master/3rdparty/Pangolin/Pangolin/components/pango_tools/include"
   "/root/slam/slambook2-master/3rdparty/Pangolin/Pangolin/components/pango_video/include"
+  "/root/slam/slambook2-master/3rdparty/Sophus/Sophus-13fb3288311485dc94e3226b69c9b59cd06ff94e"
   )
 
 # Targets to which this target links.

@@ -15,8 +15,8 @@ Eigen/Core
 -
 Eigen/Geometry
 -
-/root/slam/slambook2-master/3rdparty/Sophus/Sophus-13fb3288311485dc94e3226b69c9b59cd06ff94e/sophus/se3.hpp
--
+sophus/se3.hpp
+/root/slam/slam/7/sophus/se3.hpp
 
 /root/slam/slambook2-master/3rdparty/Sophus/Sophus-13fb3288311485dc94e3226b69c9b59cd06ff94e/sophus/common.hpp
 cmath
