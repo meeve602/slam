@@ -1,4 +1,4 @@
-# Install script for directory: /root/slam/slam/6
+# Install script for directory: /root/slam/slam/7
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

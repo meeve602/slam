@@ -14,14 +14,16 @@ include_directories("/usr/include/eigen3")
 
 find_package(Pangolin REQUIRED)  
                                                
-include_directories(${Pangolin_INCLUDE_DIRS})  
+#include_directories(${Pangolin_INCLUDE_DIRS})  
 
-target_link_libraries(7 ${Pangolin_LIBRARIES})
+#target_link_libraries(7 ${Pangolin_LIBRARIES})
 
 find_package(Sophus REQUIRED)  
 
-include_directories(${Sophus_INCLUDE_DIRS})  
+include_directories(${Sophus_INCLUDE_DIRS} ${Pangolin_INCLUDE_DIRS})  
 
-target_link_libraries(7 ${Sophus_LIBRARIES}) 
+target_link_libraries(7 ${Sophus_LIBRARIES} ${Pangolin_LIBRARIES} ) 
 
-#include_directories("../pack/Sophus/sophus/")  
+message("cmake_module_path: " ${CMAKE_MODULE_PATH})
+
+#include_directories("/root/slam/slambook2-master/3rdparty/Sophus/Sophus-13fb3288311485dc94e3226b69c9b59cd06ff94e/sophus")  

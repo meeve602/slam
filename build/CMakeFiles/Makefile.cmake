@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/root/slam/slam/6/CMakeLists.txt"
+  "/root/slam/slam/7/CMakeLists.txt"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
@@ -16,6 +16,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/root/slam/slambook2-master/3rdparty/Pangolin/Pangolin/build/PangolinConfig.cmake"
   "/root/slam/slambook2-master/3rdparty/Pangolin/Pangolin/build/PangolinConfigVersion.cmake"
   "/root/slam/slambook2-master/3rdparty/Pangolin/Pangolin/build/PangolinTargets.cmake"
+  "/root/slam/slambook2-master/3rdparty/Sophus/Sophus-13fb3288311485dc94e3226b69c9b59cd06ff94e/build/SophusConfig.cmake"
+  "/root/slam/slambook2-master/3rdparty/Sophus/Sophus-13fb3288311485dc94e3226b69c9b59cd06ff94e/build/SophusConfigVersion.cmake"
+  "/root/slam/slambook2-master/3rdparty/Sophus/Sophus-13fb3288311485dc94e3226b69c9b59cd06ff94e/build/SophusTargets.cmake"
   "/usr/lib/cmake/eigen3/Eigen3Config.cmake"
   "/usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake"
   "/usr/lib/cmake/eigen3/Eigen3Targets.cmake"
@@ -130,5 +133,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/6.dir/DependInfo.cmake"
+  "CMakeFiles/7.dir/DependInfo.cmake"
   )

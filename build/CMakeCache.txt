@@ -15,10 +15,10 @@
 ########################
 
 //Value Computed by CMake
-6_BINARY_DIR:STATIC=/root/slam/slam/build
+7_BINARY_DIR:STATIC=/root/slam/slam/build
 
 //Value Computed by CMake
-6_SOURCE_DIR:STATIC=/root/slam/slam/6
+7_SOURCE_DIR:STATIC=/root/slam/slam/7
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -136,7 +136,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=6
+CMAKE_PROJECT_NAME:STATIC=7
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -192,6 +192,9 @@ Eigen3_DIR:PATH=/usr/lib/cmake/eigen3
 
 //The directory containing a CMake configuration file for Pangolin.
 Pangolin_DIR:PATH=/root/slam/slambook2-master/3rdparty/Pangolin/Pangolin/build
+
+//The directory containing a CMake configuration file for Sophus.
+Sophus_DIR:PATH=/root/slam/slambook2-master/3rdparty/Sophus/Sophus-13fb3288311485dc94e3226b69c9b59cd06ff94e/build
 
 
 ########################
@@ -280,7 +283,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/root/slam/slam/6
+CMAKE_HOME_DIRECTORY:INTERNAL=/root/slam/slam/7
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

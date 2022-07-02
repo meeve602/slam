@@ -2,7 +2,8 @@
 #include <cmath>
 #include <Eigen/Core>
 #include <Eigen/Geometry>
-#include <sophus/se3.hpp>
+#include "/root/slam/slambook2-master/3rdparty/Sophus/Sophus-13fb3288311485dc94e3226b69c9b59cd06ff94e/sophus/se3.hpp"
+//#include "sophus/se3.hpp"
 
 using namespace std;
 using namespace Eigen;
