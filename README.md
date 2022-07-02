@@ -244,6 +244,6 @@ work flow :
 
       pull
       change 
-      pull 
-      push
+      pull (local file something be changed will not be overwrite)
+      push (local file pushing will overwrite stock code)
       
