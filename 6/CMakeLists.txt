@@ -10,7 +10,7 @@ set( CMAKE_BUILD_TYPE "Debug")
 
 include_directories("/usr/include/eigen3")
 
-include_directories("/root/slam/lambook2-master/3rdparty/Pangolin/Pangolin/")
+#include_directories("/root/slam/lambook2-master/3rdparty/Pangolin/Pangolin/")
 
 find_package(Pangolin REQUIRED)  
                                                
