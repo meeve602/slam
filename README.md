@@ -235,3 +235,15 @@ sourse file :
 command :
 
       make test
+
+# Git
+
+don't chance a same  !!!file!!! a the same time 
+
+work flow :
+
+      pull
+      change 
+      pull 
+      push
+      
