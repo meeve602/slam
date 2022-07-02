@@ -45,7 +45,9 @@ CMAKE follow to learn
 
       include_directories("/usr/include/eigen3")
 
-8，自动找包，找到库就把头文件路径和库文件路径赋值给下面两个语句中的  定义名_INCLUDE_DIRS、 定义名_LIBRARIES
+8，自动找包，找到库就把头文件路径和库文件路径赋值给下面两个语句中的  定义名_INCLUDE_DIRS、 定义名_LIBRARIES 
+
+      定义名（包名）在包对应的CMakeList.txt的Project 后面对应项目名也叫包名
 
       find_package(Pangolin REQUIRED) //找包并赋予给句柄（定义名）
                                                
