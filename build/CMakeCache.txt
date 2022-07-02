@@ -15,10 +15,10 @@
 ########################
 
 //Value Computed by CMake
-7_BINARY_DIR:STATIC=/root/slam/slam/build
+8_BINARY_DIR:STATIC=/root/slam/slam/build
 
 //Value Computed by CMake
-7_SOURCE_DIR:STATIC=/root/slam/slam/7
+8_SOURCE_DIR:STATIC=/root/slam/slam/8
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -136,7 +136,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=7
+CMAKE_PROJECT_NAME:STATIC=8
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -283,7 +283,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/root/slam/slam/7
+CMAKE_HOME_DIRECTORY:INTERNAL=/root/slam/slam/8
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

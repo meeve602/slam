@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/slam/slam/7
+CMAKE_SOURCE_DIR = /root/slam/slam/8
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /root/slam/slam/build
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 7
+# Target rules for targets named 8
 
 # Build rule for target.
-7 : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 7
-.PHONY : 7
+8 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 8
+.PHONY : 8
 
 # fast build rule for target.
-7/fast:
-	$(MAKE) -f CMakeFiles/7.dir/build.make CMakeFiles/7.dir/build
-.PHONY : 7/fast
+8/fast:
+	$(MAKE) -f CMakeFiles/8.dir/build.make CMakeFiles/8.dir/build
+.PHONY : 8/fast
 
-7.o: 7.cpp.o
+8.o: 8.cpp.o
 
-.PHONY : 7.o
+.PHONY : 8.o
 
 # target to build an object file
-7.cpp.o:
-	$(MAKE) -f CMakeFiles/7.dir/build.make CMakeFiles/7.dir/7.cpp.o
-.PHONY : 7.cpp.o
+8.cpp.o:
+	$(MAKE) -f CMakeFiles/8.dir/build.make CMakeFiles/8.dir/8.cpp.o
+.PHONY : 8.cpp.o
 
-7.i: 7.cpp.i
+8.i: 8.cpp.i
 
-.PHONY : 7.i
+.PHONY : 8.i
 
 # target to preprocess a source file
-7.cpp.i:
-	$(MAKE) -f CMakeFiles/7.dir/build.make CMakeFiles/7.dir/7.cpp.i
-.PHONY : 7.cpp.i
+8.cpp.i:
+	$(MAKE) -f CMakeFiles/8.dir/build.make CMakeFiles/8.dir/8.cpp.i
+.PHONY : 8.cpp.i
 
-7.s: 7.cpp.s
+8.s: 8.cpp.s
 
-.PHONY : 7.s
+.PHONY : 8.s
 
 # target to generate assembly for a file
-7.cpp.s:
-	$(MAKE) -f CMakeFiles/7.dir/build.make CMakeFiles/7.dir/7.cpp.s
-.PHONY : 7.cpp.s
+8.cpp.s:
+	$(MAKE) -f CMakeFiles/8.dir/build.make CMakeFiles/8.dir/8.cpp.s
+.PHONY : 8.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... 7"
+	@echo "... 8"
 	@echo "... edit_cache"
-	@echo "... 7.o"
-	@echo "... 7.i"
-	@echo "... 7.s"
+	@echo "... 8.o"
+	@echo "... 8.i"
+	@echo "... 8.s"
 .PHONY : help
 
 

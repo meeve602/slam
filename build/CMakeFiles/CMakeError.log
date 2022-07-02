@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /root/slam/slam/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_29629/fast"
-/usr/bin/make -f CMakeFiles/cmTC_29629.dir/build.make CMakeFiles/cmTC_29629.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e24e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e24e1.dir/build.make CMakeFiles/cmTC_e24e1.dir/build
 make[1]: Entering directory '/root/slam/slam/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_29629.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_29629.dir/CheckSymbolExists.c.o   -c /root/slam/slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_29629
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29629.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_29629.dir/CheckSymbolExists.c.o  -o cmTC_29629 
-CMakeFiles/cmTC_29629.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_e24e1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e24e1.dir/CheckSymbolExists.c.o   -c /root/slam/slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e24e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e24e1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e24e1.dir/CheckSymbolExists.c.o  -o cmTC_e24e1 
+CMakeFiles/cmTC_e24e1.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
 CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_29629.dir/build.make:97: recipe for target 'cmTC_29629' failed
-make[1]: *** [cmTC_29629] Error 1
+CMakeFiles/cmTC_e24e1.dir/build.make:97: recipe for target 'cmTC_e24e1' failed
+make[1]: *** [cmTC_e24e1] Error 1
 make[1]: Leaving directory '/root/slam/slam/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_29629/fast' failed
-make: *** [cmTC_29629/fast] Error 2
+Makefile:126: recipe for target 'cmTC_e24e1/fast' failed
+make: *** [cmTC_e24e1/fast] Error 2
 
 File /root/slam/slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -37,20 +37,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /root/slam/slam/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_13879/fast"
-/usr/bin/make -f CMakeFiles/cmTC_13879.dir/build.make CMakeFiles/cmTC_13879.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_68ded/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68ded.dir/build.make CMakeFiles/cmTC_68ded.dir/build
 make[1]: Entering directory '/root/slam/slam/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_13879.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_13879.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_13879
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13879.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_13879.dir/CheckFunctionExists.c.o  -o cmTC_13879 -lpthreads 
+Building C object CMakeFiles/cmTC_68ded.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_68ded.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_68ded
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68ded.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_68ded.dir/CheckFunctionExists.c.o  -o cmTC_68ded -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_13879.dir/build.make:97: recipe for target 'cmTC_13879' failed
-make[1]: *** [cmTC_13879] Error 1
+CMakeFiles/cmTC_68ded.dir/build.make:97: recipe for target 'cmTC_68ded' failed
+make[1]: *** [cmTC_68ded] Error 1
 make[1]: Leaving directory '/root/slam/slam/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_13879/fast' failed
-make: *** [cmTC_13879/fast] Error 2
+Makefile:126: recipe for target 'cmTC_68ded/fast' failed
+make: *** [cmTC_68ded/fast] Error 2
 
 
