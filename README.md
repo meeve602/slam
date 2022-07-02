@@ -238,7 +238,7 @@ command :
 
 # Git
 
-don't chance a same  !!!file!!! a the same time 
+don't chance a same  !!!file!!! at the same time 
 
 work flow :
 
